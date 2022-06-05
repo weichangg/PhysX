@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/weichang/Desktop/PhysX/physx/snippets/compiler/cmake/CMakeLists.txt
+  ClassicMain.cpp
+  SnippetHelloWorld.cpp
+  SnippetHelloWorldRender.cpp
+  SnippetHelloWorld.vcxproj -> C:\Users\weichang\Desktop\PhysX\physx\bin\win.x86_64.vc143.mt\debug\SnippetHelloWorld_64.exe

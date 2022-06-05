@@ -1,0 +1,10 @@
+^C:\USERS\WEICHANG\DESKTOP\PHYSX\PHYSX\SNIPPETS\COMPILER\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/weichang/Desktop/PhysX/physx/compiler/public -BC:/Users/weichang/Desktop/PhysX/physx/compiler/vc17win64 --check-stamp-file C:/Users/weichang/Desktop/PhysX/physx/compiler/vc17win64/sdk_snippets_bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
